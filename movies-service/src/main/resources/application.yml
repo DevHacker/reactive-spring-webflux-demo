@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: local
+
+restClient:
+  moviesInfo:
+    baseUrl: http://localhost:8080/api/movieinfos
+  reviews:
+    baseUrl: http://localhost:8082/api/reviews
+
+app:
+  api-Key-version: 1
+
+server:
+  port: 8083
